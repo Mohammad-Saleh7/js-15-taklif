@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(242, 194, 242) ;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 800px;
+    height: 500px;
+    background: white;
+    border-radius: 30px  ;
+    border: 30px solid white;
+    outline: 40px solid rgb(236, 163, 236);
+}
+.circles{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 20px;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.one{
+    background:rgba(31, 127, 102, 1);
+}
+.two{
+    background:rgba(255, 200, 0, 1);
+}
+.three{
+    background:rgba(255, 123, 0, 1);
+}
+.four{
+    background:rgba(216, 1, 1, 1);
+}
+.five{
+    background:rgba(223, 4, 70, 1);
+}
+.six{
+    background:rgba(127, 31, 85, 1) ;
+}
+.seven{
+    background:rgba(93, 18, 199, 1);
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 30vh; */
+    gap: 30px;
+    margin-top: 80px;
+}
+.box{
+    border: 2px solid rgb(189, 182, 182);
+    width: 50px;
+    height: 70px;
+}
+.image{
+    display: flex;
+    justify-content: end;
+    margin-right: -100px;
+    align-items: end;
+
+}
+.image img{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    /* margin-right: 500px; */
+    /* height: 100px; */
+}
